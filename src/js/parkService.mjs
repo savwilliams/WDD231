@@ -10,7 +10,7 @@ const park = {
   latLong: "lat:44.59824417, long:-110.5471695",
   states: "ID,MT,WY",
   contacts: {
-    phoneNumbers: [
+    phoneNumbers: [ 
       {
         phoneNumber: "307-344-7381",
         description: "",
@@ -179,6 +179,9 @@ const park = {
   designation: "National Park"
 };
 
+
 export function getParkData() {
   return park;
 }
+
+
