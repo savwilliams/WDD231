@@ -5,7 +5,7 @@ function setHeaderInfo(data) {
     disclaimer.href = data.url;
     disclaimer.innerHTML = data.fullName;
     document.querySelector("head > title").textContent = data.fullName;
-    document.querySelector(".hero-img").src = data.images[0].url;
+    document.querySelector(".hero-img").src = data.images[12].url;
     document.querySelector(".park-banner-content").innerHTML =
       parkInfoTemplate(data);
 }

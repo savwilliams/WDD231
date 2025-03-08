@@ -21,7 +21,7 @@ function getMailingAddress(addresses) {
     const mailing = addresses.find((address) => address.type === "Mailing");
     return mailing;
   }
-  
+    
   
 function getVoicePhone(numbers){
     const voice = numbers.find((number) => number.type.toLowerCase() === "voice");
